@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+	
+	<listeners>
+		<listener class-name="com.qa.test.saucedemo.eventlistener.ExtentReportListener" />
+	</listeners>
+	
+  <test name="Test Basics">
+      <classes>
+      <class name="com.qa.test.saucedemo.testcase.LoginPageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.HomePageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.ProductPageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.CartPageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.CheckoutInformationPageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.CheckoutOverviewPageTest"/>
+      <class name="com.qa.test.saucedemo.testcase.CheckoutCompletePageTest"/>
+      </classes>
+  </test>
+</suite>
